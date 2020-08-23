@@ -1,0 +1,6 @@
+comandos para ejecutar nasm
+
+1->nasm -f elf entrada.asm
+2->nasm -f elf64 -o loop.o loop.asm
+3->ld -o loop loop.o
+4->./loop
